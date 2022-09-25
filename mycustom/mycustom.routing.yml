@@ -1,0 +1,7 @@
+mycustom.timestamp_config_form:
+  path: '/admin/config/system/set-timezone'
+  defaults:
+    _form: '\Drupal\mycustom\Form\TimestampConfigForm'
+    _title: 'Set Block Timezone'
+  requirements:
+    _permission: 'administer site configuration'

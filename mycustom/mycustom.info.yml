@@ -1,0 +1,5 @@
+name: 'Timestamp Custom'
+type: module
+description: 'Custom Module to display timestamp in block.'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

@@ -1,0 +1,4 @@
+services:
+  mycustom.timezone_service:
+    class: Drupal\mycustom\services\TimezoneService
+    arguments: ['@config.factory', '@entity_type.manager']
